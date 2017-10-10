@@ -1,0 +1,276 @@
+body{
+    background-image:url("../images/background_general.jpg");
+    background-color: #e0e0e0;
+    font-family: 'Simonetta',Georgia, Times, 'Times New Roman', serif;
+    margin:0px;
+}
+
+
+header, nav{
+    background-image:url("../images/background_nav.jpg");
+}
+
+header{
+    font-family: 'Calligraffitti','Freestyle Script', 'Lucida Calligraphy', 'Segoe Script', 'Brush Script', cursive;
+    color:#679A00;
+    padding-top:5px;
+    padding-bottom: 70px;
+}
+
+nav{
+    background-image:url(../images/background_nav.jpg);
+    background-repeat: repeat-x;
+    min-height:15px;
+    max-height: 30px;
+    }
+
+#main{
+    background-image: url(../images/nav_bar.png);
+    padding: 8px;
+    height: 35px;
+}
+
+#main ul{
+    padding: 15px 0px 0px 0px;;
+}
+
+nav{
+ list-style: none;
+}
+
+nav li{
+    float:left;
+    width: 100px;
+    padding: 0px;
+    text-align: center;
+    margin: 10px 4px;
+}
+
+nav a{
+    color: #e0e0e0;
+    display: block;
+    text-decoration: none;
+}
+
+nav p{
+    color:#381f16;
+}
+
+
+#vnav{
+    width:120px;
+    padding:0px 0px 100% 0px;
+    background-color: #507800;
+}
+
+#vnav ul{
+    float:left;
+    display: block;
+    margin: 0px;
+    padding:2px;
+}
+
+#vnav li{
+    display:block;
+    float: none;
+}
+
+#vnav ul ul a{
+    padding: 0px;
+    color: #ff9335;
+}
+
+#vnav ul ul a:hover{
+    color: #e8bc00;
+}
+
+
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Calligraffitti','Freestyle Script', 'Lucida Calligraphy', 'Segoe Script', 'Brush Script', cursive;
+    text-align: center;
+    color:#679A00;
+    padding:0.5em;
+    font-size: 1.2em;
+}
+
+
+
+header h1{
+    font-size: 2em;
+    color:#e8bc00;
+    float:left;
+    margin:0px;
+    padding: 20px 0px 10x 0px;
+}
+
+header h2{
+    font-size: 1.75em;
+    color:#ff9335;
+    float:left;
+    padding: 30px 0px 10px 0px;
+    margin: 0px;
+}
+
+section{
+    float: left;
+}
+
+
+section h3{
+    color:#381f16;
+    font-size: 1.75em;
+    padding: 30px;
+}
+#list{
+    background-color: #381f16;
+    background-color: rgba(56,31,22,0.75);
+    padding: 10px;
+    text-align: center;
+    line-height: 175%;
+    float:left;
+    margin-left: 10%;
+}
+
+section{
+    padding: 2%;
+    float:none;
+}
+#it{
+ padding: 10px;
+}
+#it ul{
+    list-style:disc;
+    margin: 15px;
+}
+
+section h1,h2,h3,h4,h5,h6{
+    font-size:1.5em;
+    padding:0px;
+}
+
+section h1{
+    font-size: 1.5em;
+}
+section h2,h3{
+    font-size: 1.25em;
+}
+section h4, h5, h6{
+    font-size: 1.15em;
+}
+a{
+    color: #ff9335;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+#list a{
+    text-align:center;
+    color: #ff9335;
+    display: block;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#e8bc00;
+}
+
+
+img{
+    border: 3px solid #381f16;
+    margin: 10px;
+}
+
+header img{
+    float:left;
+    border: none;
+    background-color: transparent;
+}
+
+aside{
+    float:right;
+    padding: 2px 2.5px;
+    max-width: 500px;
+    margin: 10px;
+    background-color: rgba(255,147,53,0.75);
+}
+
+#slide{
+    float:right;
+    margin: 0px;
+}
+
+section>ul{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+section>ul>li{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display:inline;
+
+}
+
+section>ul a{
+    display: inline-block;
+    color: #679a00;
+    text-decoration: none;
+    font-family: 'Calligraffitti','Freestyle Script', 'Lucida Calligraphy', 'Segoe Script', 'Brush Script', cursive;
+    font-size: 1.2em;
+    text-align: center
+}
+
+section>ul a:hover{
+    text-shadow: 1px 1px 3px #381f16,
+        -1px 1px 3px #381f16,
+        -1px -1px 3px #381f16,
+        1px -1px 3px #381f16;
+}
+
+section a:hover{
+    text-shadow: 1px 1px 3px #381f16,
+        -1px 1px 3px #381f16,
+        -1px -1px 3px #381f16,
+        1px -1px 3px #381f16;
+}
+
+form {
+    background-color: rgba(103,154,0,0.6);
+    margin: 20px 0px 0px 130px;
+    float:left;
+    padding: 5px;
+}
+form h6, form h2{
+    color: #381f16;
+}
+
+fieldset{
+    border: 1px solid #381f16;
+    padding: 5px;
+}
+
+textarea{
+    display: block;
+    width: 400px;
+    height: 200px;
+    border: 2px solid #e8bc00;
+}
+
+input{
+    width:400px;
+    display:block;
+    border: 2px solid #e8bc00;
+}
+
+.current_section {
+    color: #381f16;
+}
+
+blockquote{
+ padding: 20px;
+}

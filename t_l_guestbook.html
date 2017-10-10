@@ -1,0 +1,75 @@
+<!doctype html lang=en>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Simonetta|Calligraffitti' rel='stylesheet' type='text/css'>
+    <title>Kiboko African Travel Agency</title>
+</head>
+    
+<body>
+    <header>
+        <img src="images/logo_small.png" alt="Kiboko logo">
+        <h1>Kiboko</h1>
+        <h2>African Travel Agency</h2>
+    </header>
+    <nav>
+        <div id='main'>
+            <ul>
+                <li><a href="index.html">Home</a>
+                </li>
+                <li><a href="a_africa.html">Africa</a>
+                </li>
+
+                <li class="current_section"><a href="t_summary.html">Tours</a>
+                </li>
+
+                <li><a href="s_summary.html">Specials</a>
+                </li>
+
+                <li><a href="au_our_mission.html">About us</a>
+                </li>
+
+                <li><a href="bookings.html">Bookings</a>
+                </li>
+            </ul>
+        </div>
+        <div id='vnav'>
+            <ul>
+            <li><a href="t_summary.html">Summary</a>
+            </li>
+            <li class="current_section"><a href="t_l_summary.html">Lion</a>
+                <ul>
+                    <li><a href="t_l_itinerary.html">Itinerary</a></li>
+                    <li class="current_section"><a href="t_l_guestbook.html">Guestbook</a></li>
+                </ul>
+            </li>
+                <li><a href="t_g_summary.html">Giraffe</a>
+                <ul>
+                    <li><a href="t_g_itinerary.html">Itinerary</a></li>
+                    <li><a href="t_g_guestbook.html">Guestbook</a></li>
+                </ul>
+            </li>
+                <li><a href="t_z_summary.html">Zebra</a>
+                <ul>
+                    <li><a href="t_z_itinerary.html">Itinerary</a></li>
+                    <li><a href="t_z_guestbook.html">Guestbook</a></li>
+                </ul>
+            </li>
+            </ul>
+        </div>
+    </nav>
+    <form action="" method="get" id="message" onsubmit="retrun validate()">
+       <h2> Send us a message</h2>
+			<fieldset>
+				<p>
+				<label for="title">Title: </label> 
+                <input type="text" name="title" id="title" placeholder="First Name" />
+                </p>
+				<p>
+              <label for="Comment">Your Experience:</label>
+                <textarea name="Comment" id='body' placeholder="Please type your message here..."></textarea>
+  </p>                
+       </fieldset>
+       <input type="button" name='btn' class="btn-style" value="Submit">
+        </form> 
